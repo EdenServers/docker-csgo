@@ -20,17 +20,11 @@ RUN ./steamcmd.sh +login anonymous \
                  +app_update 740 validate \
                  +quit
 
+RUN apt-get install -y openssh-server rssh
+ADD rssh.conf /etc/rssh.conf
 
 #Server config
 EXPOSE 27015
-
-ENV GAME_TYPE 0
-ENV GAME_MODE 0
-ENV MAPGROUP mg_bomb
-ENV MAP de_dust2
-ENV TICKRATE 128
-ENV MAXPLAYERS 16
-ENV RCONPASSWORD admin
 
 #Server Start
 WORKDIR /server/csgo
