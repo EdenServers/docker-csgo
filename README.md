@@ -53,7 +53,7 @@ Instructions for CS:GO config can be found [here](https://developer.valvesoftwar
 
 ## Run example
 
-    $ docker run -d -e GAME_TYPE=0 -e GAME_MODE=0 -e MAPGROUP=mg_bomb -e MAP=de_dust2 -e USERNAME=edenservers -e PASSWORD=edenservers -p 27015:27015 -d edenservers/docker-csgo
+    $ docker run -e GAME_TYPE=0 -e GAME_MODE=0 -e MAPGROUP=mg_bomb -e MAP=de_dust2 -e USERNAME=edenservers -e PASSWORD=edenservers -p 27015:27015 -p 27015:27015/udp -p 1234:22 -d edenservers/docker-csgo
 
 ---
 
