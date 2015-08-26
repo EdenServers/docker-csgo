@@ -1,4 +1,4 @@
-# Official Container Counter-Strike : Global Offensive on EdenServers
+# Official Counter-Strike : Global Offensive Container on EdenServers
 
 [![Run on EdenServers](https://img.shields.io/badge/EdenServers-view-blue.svg)](http://www.edenservers.us)
 
