@@ -2,7 +2,7 @@
 
 [![Run on EdenServers](https://img.shields.io/badge/EdenServers-view-blue.svg)](http://www.edenservers.us)
 
-Scripts to build the official Torrents image on Scaleway
+![](http://image.noelshack.com/fichiers/2015/35/1440632013-csgo-logo1.png)
 
 All-in-one Counter-Strike : Global Offensive Server Container built for [EdenServers](http://www.edenservers.us).
 
