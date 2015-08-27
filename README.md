@@ -1,7 +1,7 @@
 # Official Counter-Strike : Global Offensive Container on EdenServers
 
 [![Run on EdenServers](https://img.shields.io/badge/EdenServers-view-blue.svg)](http://www.edenservers.us)
-[![](https://badge.imagelayers.io/edenservers/csgo:latest.svg)](https://imagelayers.io/?images=edenservers/csgo:latest 'Get your own badge on imagelayers.io')
+[![](https://badge.imagelayers.io/edenservers/docker-csgo:latest.svg)](https://imagelayers.io/?images=edenservers/docker-csgo:latest 'Get your own badge on imagelayers.io')
 
 ![](http://image.noelshack.com/fichiers/2015/35/1440632013-csgo-logo1.png)
 
