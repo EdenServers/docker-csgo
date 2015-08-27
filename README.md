@@ -3,6 +3,7 @@
 [![Run on EdenServers](https://img.shields.io/badge/EdenServers-view-blue.svg)](http://www.edenservers.us)
 
 ![](http://image.noelshack.com/fichiers/2015/35/1440632013-csgo-logo1.png)
+[![](https://badge.imagelayers.io/edenservers/csgo:latest.svg)](https://imagelayers.io/?images=edenservers/csgo:latest 'Get your own badge on imagelayers.io')
 
 All-in-one Counter-Strike : Global Offensive Server Container built for [EdenServers](http://www.edenservers.us).
 
