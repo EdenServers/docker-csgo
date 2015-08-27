@@ -15,10 +15,6 @@ RUN mkdir -p /server/csgo
 WORKDIR /server/steamcmd
 RUN wget http://media.steampowered.com/client/steamcmd_linux.tar.gz
 RUN tar -xvzf steamcmd_linux.tar.gz
-RUN ./steamcmd.sh +login anonymous \
-                 +force_install_dir /server/csgo \
-                 +app_update 740 validate \
-                 +quit
 
 RUN apt-get install -y openssh-server rssh
 ADD rssh.conf /etc/rssh.conf
